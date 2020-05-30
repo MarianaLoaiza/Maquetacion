@@ -3,7 +3,7 @@
         <v-container  class="d-flex " >
             <v-row  class="d-flex align-center content">
                 
-                <v-col cols="12" class="information" xs="12" sm="12" Maryland="5" lg="5" SG="5" >
+                <v-col cols="12" class="information" xs="12" sm="12" Maryland="6" lg="6" SG="5" >
                     <hr class="darkBlue" >
                     <br>
                     <h3>Neumomed</h3>
@@ -13,11 +13,10 @@
                         </span>
                 </v-col>
 
-                <v-col class="content" cols="12" xs="12" sm="12" Maryland="7" lg="7" SG="7">
+                <v-col class="content" cols="12" xs="12" sm="12" Maryland="6" lg="6" SG="7">
                     <v-img
                     class="img"
                     src="../assets/_MG_5091.jpg"
-                    max-width="630"
                     max-height="750">
                     </v-img>
                 </v-col>
@@ -41,7 +40,7 @@ export default {
 }
 
 .img{
-    
+     width:80vw;
     border-radius: 235px 38px 174px 51px;
 }
 </style>
