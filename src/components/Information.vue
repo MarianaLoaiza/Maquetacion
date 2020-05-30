@@ -1,32 +1,30 @@
 <template>
-    <div  class="cont darkGray d-flex " >
-        <v-container  class="d-flex ">
-            <v-row  class="d-flex align-center">
+    <div  class="  darkGray white--text d-flex p-4" >
+        <v-container  class="d-flex " >
+            <v-row  class="d-flex align-center content">
                 
-                <v-col cols="6" class="information" sm="12" Maryland="12" lg="6" SG="6" >
-                    <hr >
+                <v-col cols="12" class="information" xs="12" sm="12" Maryland="5" lg="5" SG="5" >
+                    <hr class="darkBlue" >
                     <br>
-                    <h4 >Neumomed</h4>
+                    <h3>Neumomed</h3>
                     <h2>Neumomed IPS</h2>
                     <br>
-                    <span >ofrece una atención integral
+                    <span class="elementor-heading-title elementor-size-default">ofrece una atención integral a pacientes con enfermedades respiratorias  y trastornos del sueño. 
                         </span>
                 </v-col>
 
-                <v-col cols="6" sm="12" Maryland="12" lg="6" SG="6">
-                    <img
-                        src="../assets/_MG_5091.jpg"
-                         >
+                <v-col class="content" cols="12" xs="12" sm="12" Maryland="7" lg="7" SG="7">
+                    <v-img
+                    class="img"
+                    src="../assets/_MG_5091.jpg"
+                    max-width="630"
+                    max-height="750">
+                    </v-img>
                 </v-col>
 
             </v-row>
         </v-container>
-        <div>
-
-</div>
-    
-      
-            
+   
     </div>
 </template>
 
@@ -39,16 +37,11 @@ export default {
 <style scoped>
 .cont{
     width: 100%;
-     height: 90vh;
-    color: white;
     
 }
 
-
-
-img{
-    width: 100%;
-    height: 50vh;
+.img{
+    
     border-radius: 235px 38px 174px 51px;
 }
 </style>

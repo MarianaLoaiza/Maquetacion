@@ -1,20 +1,21 @@
-<template>
+  
+  <template>
     
-          
- 
-        <div class="content" >
-             <v-carousel hide-delimiters cycle  >
-            <v-carousel-item 
-            v-for="(item,i) in items"
-            :key="i"
-            :src="item.src"
-            reverse-transition="fade-transition"
-            transition="fade-transition"
-            ></v-carousel-item>
-  </v-carousel>  
+        <div class="mb-4 "  >
+             <v-carousel hide-delimiters cycle >
+
+                <v-carousel-item 
+                    v-for="(item,i) in items"
+                    :key="i"
+                    :src="item.src"
+                    :width="item.width"
+                    :margin="item.margin"
+                    reverse-transition="fade-transition"
+                    transition="fade-transition">
+                </v-carousel-item>
+
+              </v-carousel>  
         </div>
-
-
 
 </template>
 
@@ -27,6 +28,9 @@ export default {
         items: [
           {
             src: require('@/assets/Banner1.jpg'),
+           
+            
+  
           },
           {
             src: require('@/assets/Banner2.jpg'),
@@ -56,13 +60,6 @@ export default {
 </script>
 
 <style scoped>
-.content{
-  height: 87vh;
-  width: 100%;
- 
-}
-
-
 
 
 </style>

@@ -38,8 +38,6 @@ export default {
 
 
 <style scoped>
-.cont{
-  
-}
+
 
 </style>

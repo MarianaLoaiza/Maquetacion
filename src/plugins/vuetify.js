@@ -17,7 +17,7 @@ export default new Vuetify({
         error: '#FF5252',
         black: '#000000',
         gray: '#2b2b2b',
-        white: '##ffffff'
+        white: '#ffffff'
       },
     },
   },

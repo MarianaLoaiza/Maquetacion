@@ -21,7 +21,7 @@ import SectionForm from '@/components/SectionForm.vue'
 import Footer from '@/components/Footer.vue'
 import axios from 'axios'
 export default {
-  name: 'About',
+  name: 'Form',
   components: {
   SectionForm,
   Header,

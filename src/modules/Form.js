@@ -11,7 +11,7 @@ const posts = {
 
     mutations:{
         SET_POSTS(state, data){
-            // state.datos = data.variable
+            state.opcionesLista = data.variable
             state.secciones = data.seccion
             state.datos = data.variable
           

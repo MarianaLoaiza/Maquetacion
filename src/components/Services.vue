@@ -3,7 +3,7 @@
         <v-container  class="d-flex  ">
             <v-row  class="d-flex align-center letter ">
                 
-                <v-col cols="4" sm="12" Maryland="4" lg="4" SG="4">
+                <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4">
                     <hr >
                     <br>
                     <h3 class="darkBlue--text headline">Programas</h3>
@@ -14,7 +14,7 @@
                        
                 </v-col>
 
-                <v-col cols="4" sm="12" Maryland="4" lg="4" SG="4">
+                <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4">
                     <hr>
                     <br>
                     <h3 class="darkBlue--text headline">Terapias</h3>
@@ -24,7 +24,7 @@
                     <li class="gray--text subtitle-1"><span>Terapia Cognitivo Conductual</span></li>
                 </v-col>
 
-                <v-col cols="4" sm="12" Maryland="4" lg="4" SG="4">
+                <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4">
                    <hr>
                    <br>
                    <h3 class="darkBlue--text headline">Consultas</h3>
@@ -34,25 +34,11 @@
                     <li class="gray--text subtitle-1"><span>Consulta de Psicología</span></li>
                 </v-col>
 
-                 <v-col cols="12"
-                class="d-flex justify-center "
-              
-                >
-           
-
-               <router-link to="/About" class="link  pr-12" >INICIO</router-link>
-                
-           </v-col>
-           <router-view/>
-
             </v-row>
-        </v-container>
-        <div>
+        </v-container>   
 
-</div>
-      
-            
     </div>
+        
 </template>
 
 
@@ -63,17 +49,11 @@ export default {
 </script>
 
 <style scoped>
-.content{
-    width: 100%;
-    height: 75vh;
-  
-    
-}
+
 
 hr{
-     height: 2px;
-   border: 0;
-   
+    height: 2px;
+   border: 0;  
    background-color: #2b2b2b;
 }
 
