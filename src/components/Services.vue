@@ -34,12 +34,22 @@
                     <li class="gray--text subtitle-1"><span>Consulta de Psicología</span></li>
                 </v-col>
 
+                 <v-col cols="12"
+                class="d-flex justify-center "
+              
+                >
+           
+
+               <router-link to="/About" class="link  pr-12" >INICIO</router-link>
+                
+           </v-col>
+           <router-view/>
+
             </v-row>
         </v-container>
         <div>
 
 </div>
-    
       
             
     </div>
