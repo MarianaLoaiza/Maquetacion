@@ -1,21 +1,20 @@
-  
-  <template>
+<template>
     
-        <div class="mb-4 "  >
-             <v-carousel hide-delimiters cycle >
-
-                <v-carousel-item 
-                    v-for="(item,i) in items"
-                    :key="i"
-                    :src="item.src"
-                    :width="item.width"
-                    :margin="item.margin"
-                    reverse-transition="fade-transition"
-                    transition="fade-transition">
-                </v-carousel-item>
-
-              </v-carousel>  
+          
+ 
+        <div class="mb-2 cont"  >
+             <v-carousel hide-delimiters cycle  class="cont" >
+            <v-carousel-item class="cont"
+            v-for="(item,i) in items"
+            :key="i"
+            :src="item.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+            ></v-carousel-item>
+  </v-carousel>  
         </div>
+
+
 
 </template>
 
@@ -60,6 +59,9 @@ export default {
 </script>
 
 <style scoped>
-
+.cont{
+    width: 100%;
+    background-size: center;
+}
 
 </style>

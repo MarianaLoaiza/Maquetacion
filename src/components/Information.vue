@@ -1,14 +1,15 @@
 <template>
-    <div  class="  darkGray white--text d-flex pa-12"  >
+    <div  class="  darkGray white--text d-flex "  >
         <v-container  class="d-flex " >
             <v-row  class="d-flex align-center content">
                 
-                <v-col cols="12" class="information" xs="12" sm="12" Maryland="6" lg="6" SG="5" >
+                <v-col cols="12" class="information " xs="12" sm="12" Maryland="6" lg="6" SG="5" >
                     <hr class="darkBlue" >
                     <br>
                     <h5 class="font-weight-bold">NEUMOMED</h5>
                     <br>
-                    <h2 class="font-weight-bold display-3">Neumomed IPS</h2>
+                    <span class="font-weight-bold display-1 ">Neumomed IPS</span>
+                    <br>
                     <br>
                     <span class="">ofrece una atención integral a pacientes con enfermedades respiratorias  y trastornos del sueño. 
                         </span>
@@ -40,8 +41,9 @@ export default {
     
 }
 
+
 .img{
-     width:85vw;
+     width:80vw;
     border-radius: 235px 38px 174px 51px;
 }
 </style>
