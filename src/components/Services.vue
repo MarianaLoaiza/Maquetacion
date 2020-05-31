@@ -1,12 +1,12 @@
 <template>
-    <div  class=" content d-flex " >
-        <v-container  class="d-flex  ">
-            <v-row  class="d-flex align-center letter ">
+    <div  class="  d-flex ma-8 " id="eje" >
+        <v-container  class="d-flex  " id="eje">
+            <v-row  class="d-flex align-center" id="eje">
                 
-                <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4">
+                <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4" id="eje">
                     <hr >
                     <br>
-                    <h3 class="darkBlue--text headline">Programas</h3>
+                    <h3 class="darkBlue--text headline font-weight-medium">Programas</h3>
                     <br>
                     <li class="gray--text subtitle-1"><span>Programa de EPOC y ASMA</span></li>
                     <li class="gray--text subtitle-1"><span>Programa de SAHOS </span></li>
@@ -17,7 +17,7 @@
                 <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4">
                     <hr>
                     <br>
-                    <h3 class="darkBlue--text headline">Terapias</h3>
+                    <h3 class="darkBlue--text headline font-weight-medium">Terapias</h3>
                     <br>
                     <li class="gray--text subtitle-1"><span>Rehabilitación Pulmonar </span></li>
                     <li class="gray--text subtitle-1"><span>Terapia Miofuncional Orofacial </span></li>
@@ -27,7 +27,7 @@
                 <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4">
                    <hr>
                    <br>
-                   <h3 class="darkBlue--text headline">Consultas</h3>
+                   <h3 class="darkBlue--text headline font-weight-medium">Consultas</h3>
                    <br>
                     <li class="gray--text subtitle-1"><span>Consulta de Neumología </span></li>
                     <li class="gray--text subtitle-1"><span>Consulta de Nutrición</span></li>
@@ -49,7 +49,10 @@ export default {
 </script>
 
 <style scoped>
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,300&display=swap');
+#eje{
+  font-family: 'Montserrat', sans-serif;
+}
 
 hr{
     height: 2px;

@@ -2,18 +2,18 @@
 <template>
     
    <div>
-     <h2 class="text-xs-center">Formulario</h2>
+     <h2 class="text-center darkBlue--text ma-7 font-weight-bold">Formulario</h2>
       
       <v-expansion-panels
         v-for="secciones of secciones" :key="secciones.id" >
         
-        <v-expansion-panel class="ma-2">
-          <v-expansion-panel-header> 
+        <v-expansion-panel class="ma-2 ">
+          <v-expansion-panel-header class="font-weight-bold"> 
             {{secciones.nombre}}
           </v-expansion-panel-header>
 
           <v-expansion-panel-content>
-            <ul v-for="datos of datos" :key="datos.id" >
+            <ul v-for="datos of datos" :key="datos.id"  >
               <li v-if="datos.seccion == 1 && secciones.valor == 1 " >
                 {{datos.nombre}} 
               </li>
@@ -58,5 +58,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

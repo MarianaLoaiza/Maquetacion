@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div  >
     
  <v-container>
       <Header/>
@@ -38,3 +38,7 @@ export default {
 
 }
 </script>
+
+<style scoped>
+
+</style>

@@ -1,5 +1,5 @@
 <template>
-    <div  class="  darkGray white--text d-flex p-4" >
+    <div  class="  darkGray white--text d-flex pa-12"  >
         <v-container  class="d-flex " >
             <v-row  class="d-flex align-center content">
                 
@@ -7,7 +7,8 @@
                     <hr class="darkBlue" >
                     <br>
                     <h3>Neumomed</h3>
-                    <h2>Neumomed IPS</h2>
+                    <br>
+                    <h2 class="font-weight-bold display-2">Neumomed IPS</h2>
                     <br>
                     <span class="elementor-heading-title elementor-size-default">ofrece una atención integral a pacientes con enfermedades respiratorias  y trastornos del sueño. 
                         </span>
@@ -40,7 +41,7 @@ export default {
 }
 
 .img{
-     width:80vw;
+     width:85vw;
     border-radius: 235px 38px 174px 51px;
 }
 </style>
