@@ -6,11 +6,11 @@
                 <v-col cols="12" class="information" xs="12" sm="12" Maryland="6" lg="6" SG="5" >
                     <hr class="darkBlue" >
                     <br>
-                    <h3>Neumomed</h3>
+                    <h5 class="font-weight-bold">NEUMOMED</h5>
                     <br>
-                    <h2 class="font-weight-bold display-2">Neumomed IPS</h2>
+                    <h2 class="font-weight-bold display-3">Neumomed IPS</h2>
                     <br>
-                    <span class="elementor-heading-title elementor-size-default">ofrece una atención integral a pacientes con enfermedades respiratorias  y trastornos del sueño. 
+                    <span class="">ofrece una atención integral a pacientes con enfermedades respiratorias  y trastornos del sueño. 
                         </span>
                 </v-col>
 

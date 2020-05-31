@@ -1,9 +1,9 @@
 <template>
-    <div  class="  d-flex ma-8 " id="eje" >
-        <v-container  class="d-flex  " id="eje">
-            <v-row  class="d-flex align-center" id="eje">
+    <div  class="  d-flex ma-8 " >
+        <v-container  class="d-flex ">
+            <v-row  class="d-flex align-center" >
                 
-                <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4" id="eje">
+                <v-col cols="12" sm="4" Maryland="4" lg="4" SG="4">
                     <hr >
                     <br>
                     <h3 class="darkBlue--text headline font-weight-medium">Programas</h3>
@@ -49,10 +49,7 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,300&display=swap');
-#eje{
-  font-family: 'Montserrat', sans-serif;
-}
+
 
 hr{
     height: 2px;

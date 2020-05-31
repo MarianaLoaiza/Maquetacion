@@ -1,16 +1,18 @@
 <template>
-  <div>
+  <div >
     
   <v-container>
       <Header/>
   </v-container>
   
 
-    
+    <div id="letter">
+
      <Carrusel/>
       <Information/>
-      <Services />
+      <Services  />
        <Footer />
+    </div>
        
   </div>
 </template>
@@ -38,6 +40,9 @@ export default {
 
 
 <style scoped>
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,300&display=swap');
+#letter{
+  font-family: 'Montserrat', sans-serif;
+}
 
 </style>
